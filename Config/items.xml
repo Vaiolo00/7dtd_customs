@@ -1,0 +1,19 @@
+<configs>
+
+    <!-- Improve time charges -->
+    <set xpath="/items/item[@name='thrownTimedCharge']/effect_group/passive_effect[@name='BlockDamage']/@value">3000</set>
+    <set xpath="/items/item[@name='thrownTimedCharge']/property[@name='Explosion.DamageBonus.tags']/@value">2</set>
+    <set xpath="/items/item[@name='thrownTimedCharge']/property[@name='Explosion.DamageBonus.stone']/@value">2</set>
+    <set xpath="/items/item[@name='thrownTimedCharge']/property[@name='Explosion.DamageBonus.earth']/@value">.5</set>
+    <set xpath="/items/item[@name='thrownTimedCharge']/property[@name='Explosion.RadiusBlocks']/@value">3</set>
+    <set xpath="/items/item[@name='thrownTimedCharge']/property[@name='Explosion.RadiusEntities']/@value">4</set>
+    <set xpath="/items/item[@name='thrownTimedCharge']/effect_group/display_value[@name='dExRadius']/@value">3</set>
+
+    <!-- Start grenade fuse on activation -->
+    <append xpath="/items/item[@name='thrownGrenade']">
+        <property name="FusePrimeOnActivate" value="false"/>
+    </append>
+    <set xpath="/items/item[@name='thrownGrenade']/property[@name='FuseTime']/@value">4</set>
+    <set xpath="/items/item[@name='thrownGrenade']/effect_group/display_value[@name='dFuseTime']/@value">4</set>
+
+</configs>
