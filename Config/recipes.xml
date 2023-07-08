@@ -1,0 +1,6 @@
+<configs>
+
+    <!-- cheaper iron fences-->
+    <set xpath="/recipes/recipe[@name='metalFenceRailingTrellisSheetBlockVariantHelper']/ingredient[@name='unit_iron']/@count">5</set>
+
+</configs>
