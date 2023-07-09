@@ -1,0 +1,11 @@
+<configs>
+
+    <!-- Use scrap iron to repair chain fences -->
+    <setattribute xpath="/blocks/block[@name='chainlinkFencePole']/property[@name='Extends']" name="param1">RepairItems</setattribute>
+    <append xpath="/blocks/block[@name='chainlinkFencePole']">
+        <property class="RepairItems">
+            <property name="resourceScrapIron" value="5"/>
+        </property>
+    </append>
+
+</configs>

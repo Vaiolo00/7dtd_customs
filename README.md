@@ -1,8 +1,9 @@
 # 7 Days to Die VBN customizations
 
 ## Recipe changes
-- Cheaper iron fences
+- Cheaper chain fences
     - Iron: 15 &rarr; 5
+    - Repair material: Forged iron &rarr; Iron
 
 ## Weapon changes
 - More powerful timed charges
