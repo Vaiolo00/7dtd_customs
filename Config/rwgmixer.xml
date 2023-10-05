@@ -1,0 +1,9 @@
+<configs>
+    <!-- Bigger towns -->
+    <set xpath="/rwgmixer/world[@name='large']/property[@class='town']/property[@name='mintiles']/@value">12</set>
+    <set xpath="/rwgmixer/world[@name='large']/property[@class='town']/property[@name='maxtiles']/@value">16</set>
+
+    <!-- Bigger cities -->
+    <set xpath="/rwgmixer/world[@name='large']/property[@class='city']/property[@name='mintiles']/@value">28</set>
+    <set xpath="/rwgmixer/world[@name='large']/property[@class='city']/property[@name='maxtiles']/@value">36</set>
+</configs>
