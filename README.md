@@ -17,3 +17,8 @@
 - Better grenade fuse
     - Fuse activates when removing the pin, not on launch
     - Fuse time: 3s &rarr; 4s
+
+## World generation
+- Bigger towns and cities on large wolrds
+    - Town min/max tiles: 6/8 &rarr; 12/16
+    - City min/max tiles: 6/8 &rarr; 28/36
