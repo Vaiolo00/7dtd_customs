@@ -16,4 +16,8 @@
     <set xpath="/items/item[@name='thrownGrenade']/property[@name='FuseTime']/@value">4</set>
     <set xpath="/items/item[@name='thrownGrenade']/effect_group/display_value[@name='dFuseTime']/@value">4</set>
 
+    <!-- Fix wooden and steel club animation -->
+    <set xpath="/items/item[@name='meleeWpnClubT0WoodenClub']/property[@name='HoldType']/@value">65</set>
+    <set xpath="/items/item[@name='meleeWpnClubT3SteelClub']/property[@name='HoldType']/@value">65</set>
+
 </configs>

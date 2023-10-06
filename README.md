@@ -18,6 +18,10 @@
     - Fuse activates when removing the pin, not on launch
     - Fuse time: 3s &rarr; 4s
 
+- Weapon animations
+    - Improve wooden club attack animation
+    - Improve steel club attack animation
+
 ## World generation
 - Bigger towns and cities on large wolrds
     - Town min/max tiles: 6/8 &rarr; 12/16
