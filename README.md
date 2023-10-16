@@ -22,6 +22,9 @@
     - Improve wooden club attack animation
     - Improve steel club attack animation
 
+- Better sledgehammers
+    - Now Batter up skills are applied to sledgehammers too
+
 ## World generation
 - Bigger towns and cities on large wolrds
     - Town min/max tiles: 6/8 &rarr; 12/16

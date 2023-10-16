@@ -1,0 +1,9 @@
+<configs>
+    <append xpath="/progression/perks/book[@name='perkBatterUpBigHits']/effect_group/passive_effect/@tags">,perkSkullCrusher</append>
+    <append xpath="/progression/perks/book[@name='perkBatterUpStealingBases']/effect_group/requirement[@name='ItemHasTags']/@tags">,perkSkullCrusher</append>
+    <append xpath="/progression/perks/book[@name='perkBatterUpSlowPitch']/effect_group/triggered_effect/requirement[@name='ItemHasTags']/@tags">,perkSkullCrusher</append>
+    <append xpath="/progression/perks/book[@name='perkBatterUpKnockdown']/effect_group/triggered_effect/requirement[@name='ItemHasTags']/@tags">,perkSkullCrusher</append>
+    <append xpath="/progression/perks/book[@name='perkBatterUpMaintenance']/effect_group/passive_effect/@tags">,perkSkullCrusher</append>
+    <append xpath="/progression/perks/book[@name='perkBatterUpFoulBalls']/effect_group/triggered_effect/requirement[@name='ItemHasTags']/@tags">,perkSkullCrusher</append>
+    <append xpath="/progression/perks/book[@name='perkBatterUpComplete']/effect_group/triggered_effect/requirement[@name='ItemHasTags']/@tags">,sledge</append>
+</configs>
